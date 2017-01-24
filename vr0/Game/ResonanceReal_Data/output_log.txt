@@ -1,0 +1,1130 @@
+Initialize engine version: 5.5.0f3 (38b4efef76f0)
+GfxDevice: creating device client; threaded=1
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.0]
+    Renderer: NVIDIA GeForce GPU (ID=0x1392)
+    Vendor:   NVIDIA
+    VRAM:     2016 MB
+    Driver:   21.21.13.7633
+Begin MonoManager ReloadAssembly
+Platform assembly: C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.dll (this message is harmless)
+Loading C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.dll into Unity Child Domain
+Platform assembly: C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\Assembly-CSharp.dll (this message is harmless)
+Loading C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.UI.dll (this message is harmless)
+Loading C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.Networking.dll (this message is harmless)
+Loading C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll (this message is harmless)
+Loading C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.PlaymodeTestsRunner.dll into Unity Child Domain
+Platform assembly: C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.Analytics.dll (this message is harmless)
+Loading C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.Analytics.dll into Unity Child Domain
+Platform assembly: C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.VR.dll (this message is harmless)
+Loading C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\UnityEngine.VR.dll into Unity Child Domain
+- Completed reload, in  0.036 seconds
+Platform assembly: C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\System.Core.dll (this message is harmless)
+Platform assembly: C:\Users\geoff\Documents\work\personal\games\vr0\Game\ResonanceReal_Data\Managed\System.dll (this message is harmless)
+<RI> Initializing input.
+<RI> Input initialized.
+desktop: 1920x1080 50Hz; virtual: 1920x1080 at 0,0
+<RI> Initialized touch support.
+OpenVR initialized!
+ 
+(Filename:  Line: 381)
+
+UnloadTime: 0.977848 ms
+Connected to lighthouse:LHR-6A53AE8E
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 30c4 -> priority: 1 
+  Thread -> id: 2b10 -> priority: 1 
+Controller (right)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Item picked up
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Controller (left)
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Item picked up
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 1.045028 ms
+
+Unloading 10 unused Assets to reduce memory usage. Loaded Objects now: 1373.
+Total: 0.640080 ms (FindLiveObjects: 0.097504 ms CreateObjectMapping: 0.043853 ms MarkObjects: 0.474461 ms  DeleteObjects: 0.023793 ms)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at PlayerDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at EnemyAttack.Melee () [0x00000] in <filename unknown>:0 
+  at EnemyController.SetState (state newState) [0x00000] in <filename unknown>:0 
+  at EnemyController.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+enemy contact with player broken, returning to default state
+ 
+(Filename: C:/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+NullReferenceException: Object reference not set to an instance of an object
+  at EnemyDeath.Die () [0x00000] in <filename unknown>:0 
+  at Health.Damage (Int32 amt) [0x00000] in <filename unknown>:0 
+  at Bullet.OnTriggerEnter (UnityEngine.Collider other) [0x00000] in <filename unknown>:0 
+ 
+(Filename:  Line: -1)
+
+OpenVR Shutdown
+ 
+(Filename:  Line: 815)
+
