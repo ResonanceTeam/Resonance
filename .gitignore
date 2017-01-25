@@ -1,0 +1,11 @@
+*.csproj
+*.unityproj
+*.sln
+*.user
+*.userprefs
+*.DS_store
+*.log
+/[L]ibrary/
+/Temp
+/Builds.Old
+/Game
