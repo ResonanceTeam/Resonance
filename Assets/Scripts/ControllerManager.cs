@@ -10,18 +10,18 @@ public class ControllerManager : MonoBehaviour {
 
 	private SteamVR_Controller.Device controller {
 
-		get { return SteamVR_Controller.Input((int)trackedObj.index);
-
+		get {
+            return SteamVR_Controller.Input((int)trackedObj.index);
 		}
 
-	}
+        //var deviceIndex = SteamVR_Controller.GetDeviceIndex(SteamVR_Controller.Leftmost); //for getting controllers seperately maybe?
+    }
 
-	private SteamVR_TrackedObject trackedObj;
+    private SteamVR_TrackedObject trackedObj;
 
 	void Start() {
 
 		trackedObj = GetComponent<SteamVR_TrackedObject>();
-
 	}
 
 	void Update() {
@@ -33,6 +33,8 @@ public class ControllerManager : MonoBehaviour {
 			return;
 
 		}
+
+        Input.GetAxis("")
 	}
 
 	public void OnTriggerStay(Collider other) {
