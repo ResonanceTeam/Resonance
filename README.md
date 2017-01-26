@@ -10,4 +10,8 @@ If you want, Git has an awesome tutorial page. check it out at <br /> https://gu
 <br />
 Git Software <br />
 Github also has a really nice gui application that makes things easier <br />
-https://desktop.github.com/
+https://desktop.github.com/<br />
+<br/>
+Unity Cloud Build <br/>
+Should output an executable for each master branch update here<br/>
+https://developer.cloud.unity3d.com/build/orgs/resonance-team/projects/resonance/
