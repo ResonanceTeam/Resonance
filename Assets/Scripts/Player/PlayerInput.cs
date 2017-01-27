@@ -8,11 +8,11 @@ public class PlayerInput : MonoBehaviour{
     public GameObject VRController0;
     public GameObject VRController1;
 
-    public enum BtnCode { Action0, Action1, QuickMenu }
+    public enum BtnCode { Action0, Action1, QuickMenu0, QuickMenu1 }
     public enum AxisCode { MoveX, MoveY}
 
-    private SteamVR_Controller.Device vr0;
-    private SteamVR_Controller.Device vr1;
+    private static SteamVR_Controller.Device vr0;
+    private static SteamVR_Controller.Device vr1;
 
     // Use this for initialization
     void Start () {
@@ -26,43 +26,56 @@ public class PlayerInput : MonoBehaviour{
 	void Update () {
 	}
 
-    public bool GetBtn(BtnCode btn) {
+    public static bool GetBtn(BtnCode btn) {
         switch (btn) {
             case BtnCode.Action0:
                 return VRDevice.isPresent == true ? vr0.GetHairTrigger() : Input.GetMouseButton(0);
             case BtnCode.Action1:
                 return VRDevice.isPresent == true ? vr1.GetHairTrigger() : Input.GetMouseButton(1);
+            case BtnCode.QuickMenu0:
+                return VRDevice.isPresent == true ? vr0.GetPress(SteamVR_Controller.ButtonMask.Touchpad) : Input.GetKey(KeyCode.Q);
+            case BtnCode.QuickMenu1:
+                return VRDevice.isPresent == true ? vr1.GetPress(SteamVR_Controller.ButtonMask.Touchpad) : Input.GetKey(KeyCode.E);
         }
         return false;
     }
 
-    public bool GetBtnDown(BtnCode btn) {
-        bool onDown = false;
+    public static bool GetBtnDown(BtnCode btn) {
         switch (btn) {
             case BtnCode.Action0:
-                break;
+                return VRDevice.isPresent == true ? vr0.GetHairTriggerDown() : Input.GetMouseButtonDown(0);
+            case BtnCode.Action1:
+                return VRDevice.isPresent == true ? vr1.GetHairTriggerDown() : Input.GetMouseButtonDown(1);
+            case BtnCode.QuickMenu0:
+                return VRDevice.isPresent == true ? vr0.GetPressDown(SteamVR_Controller.ButtonMask.Touchpad) : Input.GetKeyDown(KeyCode.Q);
+            case BtnCode.QuickMenu1:
+                return VRDevice.isPresent == true ? vr1.GetPressDown(SteamVR_Controller.ButtonMask.Touchpad) : Input.GetKeyDown(KeyCode.E);
         }
-        return onDown;
+        return false;
     }
 
-    public bool GetBtnUp(BtnCode btn) {
-        bool onUp = false;
+    public static bool GetBtnUp(BtnCode btn) {
         switch (btn) {
             case BtnCode.Action0:
-                break;
+                return VRDevice.isPresent == true ? vr0.GetHairTriggerUp() : Input.GetMouseButtonUp(0);
+            case BtnCode.Action1:
+                return VRDevice.isPresent == true ? vr1.GetHairTriggerUp() : Input.GetMouseButtonUp(1);
+            case BtnCode.QuickMenu0:
+                return VRDevice.isPresent == true ? vr0.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad) : Input.GetKeyUp(KeyCode.Q);
+            case BtnCode.QuickMenu1:
+                return VRDevice.isPresent == true ? vr1.GetPressUp(SteamVR_Controller.ButtonMask.Touchpad) : Input.GetKeyUp(KeyCode.E);
         }
-        return onUp;
+        return false;
     }
 
-    public float GetAxis(AxisCode axis) {
-        float output = 0.0f;
+    public static float GetAxis(AxisCode axis) {
         switch (axis) {
             case AxisCode.MoveX:
-                break;
+                return VRDevice.isPresent == true ? vr0.GetAxis().x : Input.GetAxis("Horizonal");
             case AxisCode.MoveY:
-                break;
+                return VRDevice.isPresent == true ? vr0.GetAxis().y : Input.GetAxis("Vertical");
         }
-        return output;
+        return 0f;
     }
 }
 

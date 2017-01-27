@@ -4,11 +4,11 @@ using UnityEngine;
 
 public class GunController : MonoBehaviour {
 
-	public GameObject controllerRight;
+	//public GameObject controllerRight;
 
-	private SteamVR_TrackedObject trackedObj;
-	private SteamVR_Controller.Device device;
-	private SteamVR_TrackedController controller;
+	//private SteamVR_TrackedObject trackedObj;
+	//private SteamVR_Controller.Device device;
+	//private SteamVR_TrackedController controller;
 	public Transform muzzleTransform;
 
 	public AudioClip shootSound;
@@ -28,22 +28,22 @@ public class GunController : MonoBehaviour {
 
 	void Start() {
 		source = this.GetComponent<AudioSource> ();
-		controller = controllerRight.GetComponent <SteamVR_TrackedController>();
-		controller.TriggerClicked += TriggerPressed;
-		trackedObj = controllerRight.GetComponent <SteamVR_TrackedObject>();
+		//controller = controllerRight.GetComponent <SteamVR_TrackedController>();
+		//controller.TriggerClicked += TriggerPressed;
+		//trackedObj = controllerRight.GetComponent <SteamVR_TrackedObject>();
 	}
 
-	private void TriggerPressed(object sender, ClickedEventArgs e) {
+	/*private void TriggerPressed(object sender, ClickedEventArgs e) {
 		ShootWeapon();
-	}
+	}*/
 
 	public void ShootWeapon()
 	{
 		GameObject instantiatedProjectile = Instantiate (bulletPrefab, muzzleTransform.position, transform.rotation) as GameObject;
 
 		instantiatedProjectile.GetComponent<Rigidbody>().velocity = transform.TransformDirection(new Vector3(0, speed, 0));
-		device = SteamVR_Controller.Input((int)trackedObj.index);
-		device.TriggerHapticPulse(hap);
+		//device = SteamVR_Controller.Input((int)trackedObj.index);
+		//device.TriggerHapticPulse(hap);
 
 		float vol = Random.Range (volLowRange, volHighRange);
 		source.pitch = Random.Range (pitchLowRange, pitchHighRange);
