@@ -24,12 +24,20 @@ public class EnemyDeath : MonoBehaviour {
 	}
 
     void Die() {
-        audioSource.PlayOneShot(deathSound);
-        gameController.AddScore(killScore);
-		levelController.mobCountDec();
-		Debug.Log ("calling mob count dec");
+        if (deathSound != null) {
+            audioSource.PlayOneShot(deathSound);
+        }
+        if (gameController != null) {
+            gameController.AddScore(killScore);
+        }
+        if (levelController != null) {
+            levelController.mobCountDec();
+            Debug.Log("calling mob count dec");
+        }
         // add enemy death animation and stuff here
-		Instantiate(deathPrefab, transform.position,transform.rotation);
+        if (deathPrefab != null) {
+            Instantiate(deathPrefab, transform.position, transform.rotation);
+        }
         Destroy(gameObject);
     }
 }
