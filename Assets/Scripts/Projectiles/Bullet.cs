@@ -22,8 +22,8 @@ public class Bullet : MonoBehaviour {
 
 	public void OnTriggerEnter(Collider other) {
 		if (other.tag == "Enemy") {
-			if (other.GetComponent<CharacterController> ().enabled == true) {
-				other.gameObject.GetComponent<Health> ().Damage (bulletDamage);
+			if (other.GetComponent<CharacterController>().enabled == true) {
+				other.gameObject.GetComponent<Health>().Damage(bulletDamage);
 			}
 		}
 

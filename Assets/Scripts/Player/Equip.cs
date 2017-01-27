@@ -29,10 +29,6 @@ public class Equip : MonoBehaviour {
 	}
 
     public void EquipItem(GameObject item) {
-        if(EquipedItem != null) {
-            GC = null;
-            Destroy(EquipedItem);
-        }
         EquipedItem = Instantiate(item,transform.position,transform.rotation,transform) as GameObject;
         if (EquipedItem.GetComponent<GunController>() != null) {
             GC = EquipedItem.GetComponent<GunController>();

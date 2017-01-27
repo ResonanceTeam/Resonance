@@ -60,10 +60,5 @@ public class Health : MonoBehaviour {
             }
         }
     }
-
-    public void OnTriggerEnter(Collider other) {
-        if (other.tag == "Bullet") {
-            //Damage(other.GetComponent<Bullet>().bulletDamage);
-        }
-    }
+    
 }
