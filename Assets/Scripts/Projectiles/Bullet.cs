@@ -28,7 +28,7 @@ public class Bullet : MonoBehaviour {
 		}
 
 		if (other.tag == "Menu") {
-			Application.LoadLevel (1);
+			Application.LoadLevel ("lvl1");
 		}
 	}
 }
