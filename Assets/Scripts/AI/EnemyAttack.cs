@@ -18,10 +18,12 @@ public class EnemyAttack : MonoBehaviour {
 	}
 
     void Melee() {
-        Debug.Log("enemy is attacking");
-        GameObject.FindGameObjectWithTag("Player").GetComponent<Health>().Damage(1);
-        if (attackSound != null) {
-            this.GetComponent<AudioSource>().PlayOneShot(attackSound);
+        if (this.GetComponent<EnemyController>().isActive) {
+            Debug.Log("enemy is attacking");
+            GameObject.FindGameObjectWithTag("Player").GetComponent<Health>().Damage(1);
+            if (attackSound != null) {
+                this.GetComponent<AudioSource>().PlayOneShot(attackSound);
+            }
         }
     }
 

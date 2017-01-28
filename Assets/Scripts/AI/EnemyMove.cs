@@ -118,7 +118,7 @@ public class EnemyMove : MonoBehaviour {
             moveDir.x = desiredMove.x * moveSpeed;
             moveDir.z = desiredMove.z * moveSpeed;
 
-            myCharController.Move(moveDir * Time.fixedDeltaTime);
+            myCharController.Move(moveDir * Time.deltaTime);//Time.fixedDeltaTime);
         }
     }
 
@@ -144,7 +144,7 @@ public class EnemyMove : MonoBehaviour {
             moveDir.x = desiredMove.x * moveSpeed;
             moveDir.z = desiredMove.z * moveSpeed;
 
-            myCharController.Move(moveDir * Time.fixedDeltaTime);
+            myCharController.Move(moveDir * Time.deltaTime);//Time.fixedDeltaTime);
         }
     }
 }
