@@ -54,7 +54,6 @@ public class Sonar : MonoBehaviour {
         //currentSpeed += Time.deltaTime * 10f;
         if(currentSpeed >= minSpeed && currentSpeed <= maxSpeed) {
             currentSpeed += Time.deltaTime * acceleration;
-            Debug.Log("Sonar Wave Accelerating");
         }
         switch (currentState)
         {

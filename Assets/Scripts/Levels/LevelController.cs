@@ -20,9 +20,8 @@ public class LevelController : MonoBehaviour {
 
     public void mobCountDec() {
         mobCount--;
-        if (mobCount >= 0) {
-
-			Debug.Log ("setting spawn trigger active");
+        if (mobCount <= 0) {
+			//Debug.Log ("setting spawn trigger active");
             spawn.gameObject.SetActive(true);
         }
     }

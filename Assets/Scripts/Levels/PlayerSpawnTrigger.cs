@@ -19,10 +19,10 @@ public class PlayerSpawnTrigger : MonoBehaviour {
     public void OnTriggerEnter(Collider other) {
 		if (other.tag == "Player") {
 			levelLoadTarget.gameObject.SetActive (true);
-			Debug.Log ("player entered spawn trigger");
+			//Debug.Log ("player entered spawn trigger");
 		} else {
 
-			Debug.Log (other.name + " entered spawn trigger");
+			//Debug.Log (other.name + " entered spawn trigger");
 		}
 
     }
@@ -30,9 +30,9 @@ public class PlayerSpawnTrigger : MonoBehaviour {
 	public void OnTriggerExit(Collider other) {
         if (other.tag == "Player") {
 			levelLoadTarget.gameObject.SetActive(false);
-			Debug.Log ("player left spawn trigger");
+			//Debug.Log ("player left spawn trigger");
 		} else {
-			Debug.Log (other.name + " exited spawn trigger");
+			//Debug.Log (other.name + " exited spawn trigger");
 		}
     }
 }

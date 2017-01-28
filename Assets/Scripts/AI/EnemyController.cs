@@ -188,7 +188,8 @@ public class EnemyController : MonoBehaviour {
 
     // set state to melee if in contact with player
     void OnTriggerEnter(Collider other) {
-        if (other.tag == "Player") {
+    //public void OnCollisionEnter(Collision other) {
+        if (other.gameObject.tag == "Player") {
             SetState(state.attackingMelee);
             Debug.Log("enemy contact with player, setting state to melee");
         }
@@ -196,7 +197,8 @@ public class EnemyController : MonoBehaviour {
 
     // return to default state if contact is broken
     void OnTriggerExit(Collider other) {
-        if (other.tag == "Player") {
+    //public void OnCollisionExit(Collision other) {
+        if (other.gameObject.tag == "Player") {
             Debug.Log("enemy contact with player broken, returning to default state");
             SetState(defaultState);
         }
